@@ -1,0 +1,5 @@
+- hosts: all
+  roles:
+    - role: enix.mongodb
+      become: yes
+      mongodb__conf_bindIp: 192.168.33.10
